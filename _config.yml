@@ -18,6 +18,12 @@ collections:
     output: true
     permalink: /:collection/:name
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-gist
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
